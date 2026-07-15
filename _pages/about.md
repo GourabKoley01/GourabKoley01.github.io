@@ -12,8 +12,20 @@ profile:
     <p>IIT Kanpur</p>
     <p>Kanpur, Uttar Pradesh, India</p>
 
+# Social and Contact Links
+contact:
+  - name: Email
+    url: mailto:gourab20koley@gmail.com # e.g., mailto:gourab@example.com
+    icon: fas fa-envelope
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/gourab-koley-285688200/ # e.g., https://linkedin.com/in/gourabkoley
+    icon: fab fa-linkedin
+  - name: GitHub
+    url: https://github.com/GourabKoley01
+    icon: fab fa-github
+
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: false # includes a list of news items
