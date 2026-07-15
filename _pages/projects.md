@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing collection of my computational research and development.
 nav: true
 nav_order: 2
-display_categories: [High-Performance Computing, Computational Fluid Dynamics]
+display_categories: [work]
 horizontal: true
 ---
 
@@ -14,7 +14,7 @@ horizontal: true
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {%- for category in page.display_categories %}
-  <a id="{{ category | slugify }}" href="#{{ category | slugify }}">
+  <a id="{{ category }}" href="#{{ category }}">
     <h2 class="category">{{ category }}</h2>
   </a>
   {%- assign categorized_projects = site.projects | where: "category", category -%}
@@ -36,6 +36,7 @@ horizontal: true
   </div>
   {%- endif -%}
   {%- endfor %}
+
 {%- else -%}
 <!-- Display projects without categories -->
   {%- assign sorted_projects = site.projects | sort: "importance" -%}
