@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing collection of my computational research and development.
 nav: true
 nav_order: 2
-display_categories: [High-Performance Computing, Computational Fluid Dynamics]
+display_categories: [High-Performance Computing, Computational Fluid Dynamics, Aerospace Systems & Design]
 horizontal: true
 ---
 
