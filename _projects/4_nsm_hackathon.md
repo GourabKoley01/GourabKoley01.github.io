@@ -4,7 +4,7 @@ title: Multi-GPU Scaling of VYOM (NSM Hackathon)
 description: Achieving a 6.61x computational speedup using MPI and multi-GPU optimization.
 img: assets/img/1.jpg
 importance: 1
-category: work
+category: High-Performance Computing
 ---
 
 During the National Supercomputing Mission (NSM) Open Hackathon in Goa, I worked on accelerating and optimizing **VYOM**, a heavy computational fluid dynamics code. The primary objective was to transition the code to effectively utilize modern supercomputing architectures.
