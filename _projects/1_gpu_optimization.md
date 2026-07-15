@@ -2,7 +2,7 @@
 layout: page
 title: GPU Optimization of an Euler Solver
 description: Achieving maximum TFLOPs throughput using Python, NVIDIA Warp, and memory restructuring.
-img: assets/img/project1_preview.jpg # You can replace this with a real image later
+img: assets/img/12.jpg # You can replace this with a real image later
 importance: 1
 category: High-Performance Computing
 ---
